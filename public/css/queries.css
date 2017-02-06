@@ -33,7 +33,8 @@
 
 	.header-nav {
 		position: fixed;
-		background-color: #000;
+		/*background-color: #000;*/
+		background-color: #00B8D4;
 		width: 100%;
 		height: 100%;
 		top: 0;

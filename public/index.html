@@ -32,19 +32,19 @@
         <section class="navigation">
             <header>
                 <div class="header-content">
-                    <div class="logo"><a href="#">Yuichi & Sayaka</a></div>
+                    <div class="logo"><a href="#">Yuichi & Sayaka's wedding</div>
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
-                                <li><a href="#reception">Reception</a></li>
-                                <li><a href="#wedding-menu">Wedding Menu</a></li>
                                 <li><a href="#profile">Profile</a></li>
                                 <li><a href="#q-and-a">Q&A</a></li>
+                                <li><a href="#reception">Reception</a></li>
+                                <li><a href="#wedding-menu">Wedding Menu</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="navicon">
-                        <a class="nav-toggle" href="#"><span></span></a>
+                        <a class="nav-toggle" href="#profile"><span></span></a>
                     </div>
                 </div>
             </header>
@@ -60,38 +60,56 @@
                 </div>
             </div>
         </div>
-        <div class="down-arrow floating-arrow"><a href="#"><i class="fa fa-angle-down"></i></a></div>
+        <div class="down-arrow floating-arrow"><a href="#profile"><i class="fa fa-angle-down"></i></a></div>
     </section>
-    <section class="">
+    <section class="profile section-padding" id="profile">
         <div class="container">
             <div class="row">
-              Reception
-            </div>
+                <h3>profile</h3>
+                <div class="col-md-6 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe040;" class="icon"></span>
+                    </div>
+                    <div class="intro-content">
+                        <h5>Yuichi Kubota</h5>
+                        <p>He is a nice gay.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 intro-feature">
+                    <div class="intro-icon">
+                        <span data-icon="&#xe040;" class="icon"></span>
+                    </div>
+                    <div class="intro-content">
+                        <h5>Sayaka Kouyama</h5>
+                        <p>She is a funny lady.</p>
+                    </div>
+                </div>
+\            </div>
         </div>
     </section>
-    <section class="">
-        <div class="container">
-            <div class="row">
-              Wedding Menu
-            </div>
-        </div>
-    </section>
-    <section class="">
-        <div class="container">
-            <div class="row">
-              Profile
-            </div>
-        </div>
-    </section>
-    <section class="">
+    <section class="q-and-a section-padding" id="q-and-a">
         <div class="container">
             <div class="row">
               Q&A
             </div>
         </div>
     </section>
+    <section class="reception section-padding" id="reception">
+        <div class="container">
+            <div class="row">
+              Reception
+            </div>
+        </div>
+    </section>
+    <section class="wedding-menu section-padding" id="wedding-menu">
+        <div class="container">
+            <div class="row">
+              Wedding Menu
+            </div>
+        </div>
+    </section>
     <footer role="contentinfo" class="row">
-      Footer
+      Copyright &copy; 2017 kubocchi
     </footer>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -103,6 +121,19 @@
     <script src="js/jquery.flexslider-min.js"></script>
     <script src="bower_components/classie/classie.js"></script>
     <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDrHMnDrCY0OtzGObdrYWkV_NHoIOHIFvY",
+        authDomain: "yswedding-f218e.firebaseapp.com",
+        databaseURL: "https://yswedding-f218e.firebaseio.com",
+        storageBucket: "yswedding-f218e.appspot.com",
+        messagingSenderId: "975821250031"
+      };
+      firebase.initializeApp(config);
+    </script>
 
   </body>
 </html>
