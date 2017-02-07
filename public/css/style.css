@@ -439,6 +439,90 @@ header {
           transform: translateX(-50%);
 }
 
+/* ==========================================================================
+Profile
+========================================================================== */
+
+/*.profile span.img {
+  font-size: 40px;
+  color: #FF5274;
+  font-weight: bold; }*/
+
+.profile {
+  position: relative;
+}
+.profile p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.profile h3 {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.profile-col {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-icon {
+  display: inline-block;
+  vertical-align: top;
+  padding: 6px 0 0 0;
+  margin-right: 20px;
+}
+
+.profile-icon img {
+  width: 150px;
+}
+
+.profile-content {
+  display: inline-block;
+  width: 80%;
+}
+
+/* ==========================================================================
+Q&A
+========================================================================== */
+
+/*.profile span.img {
+  font-size: 40px;
+  color: #FF5274;
+  font-weight: bold; }*/
+
+.q-and-a {
+  position: relative;
+}
+.q-and-a p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.q-and-a h3 {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.q-and-a-col {
+  margin: 0;
+  padding: 0;
+}
+
+.q-and-a-icon {
+  display: inline-block;
+  vertical-align: top;
+  padding: 6px 0 0 0;
+  margin-right: 20px;
+}
+
+.q-and-a-icon img {
+  width: 150px;
+}
+
+.q-and-a-content {
+  display: inline-block;
+  width: 80%;
+}
+
 
 /* ==========================================================================
 Footer
