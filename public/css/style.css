@@ -468,8 +468,7 @@ Profile
 .profile-icon {
   display: inline-block;
   vertical-align: top;
-  padding: 6px 0 0 0;
-  margin-right: 20px;
+  padding: 10px 0 0 120px;
 }
 
 .profile-icon img {
@@ -478,7 +477,17 @@ Profile
 
 .profile-content {
   display: inline-block;
-  width: 80%;
+  margin: 10px 0 0 70px;
+  width: 100%;
+  height: 200px;
+}
+
+.prifile-content h5 {
+  display: table-row;
+}
+
+.profile-table {
+  display: table;
 }
 
 /* ==========================================================================
@@ -492,6 +501,7 @@ Q&A
 
 .q-and-a {
   position: relative;
+  background-color: #FAFAFA;
 }
 .q-and-a p {
   margin-bottom: 0;
@@ -523,6 +533,91 @@ Q&A
   width: 80%;
 }
 
+/* ==========================================================================
+reception
+========================================================================== */
+
+/*.reception span.img {
+  font-size: 40px;
+  color: #FF5274;
+  font-weight: bold; }*/
+
+.reception {
+  position: relative;
+}
+
+.reception p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.reception h3 {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.reception-col {
+  margin: 0;
+  padding: 0;
+}
+
+.reception-icon {
+  display: inline-block;
+  vertical-align: top;
+  padding: 6px 0 0 0;
+  margin-right: 20px;
+}
+
+.reception-icon img {
+  width: 150px;
+}
+
+.reception-content {
+  display: inline-block;
+  width: 80%;
+}
+
+/* ==========================================================================
+wedding-menu
+========================================================================== */
+
+/*.wedding-menu span.img {
+  font-size: 40px;
+  color: #FF5274;
+  font-weight: bold; }*/
+
+.wedding-menu {
+  position: relative;
+  background-color: #FAFAFA;
+}
+.wedding-menu p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.wedding-menu h3 {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.wedding-menu-col {
+  margin: 0;
+  padding: 0;
+}
+
+.wedding-menu-icon {
+  display: inline-block;
+  vertical-align: top;
+  padding: 6px 0 0 0;
+  margin-right: 20px;
+}
+
+.wedding-menu-icon img {
+  width: 150px;
+}
+
+.wedding-menu-content {
+  display: inline-block;
+  width: 80%;
+}
 
 /* ==========================================================================
 Footer
