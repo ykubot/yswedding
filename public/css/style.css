@@ -413,6 +413,7 @@ header {
 	}
     header ul.primary-nav li {
       display: inline;
+      font-family: WaltoGraph;
 		}
       header ul.primary-nav li a {
         color: #fff;
@@ -458,6 +459,8 @@ Profile
 .profile h3 {
   margin: 0 0 20px 0;
   text-align: center;
+  font-family: WaltoGraph;
+  font-size: 50px;
 }
 
 .profile-col {
@@ -466,9 +469,10 @@ Profile
 }
 
 .profile-icon {
-  display: inline-block;
-  vertical-align: top;
-  padding: 10px 0 0 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .profile-icon img {
@@ -476,18 +480,21 @@ Profile
 }
 
 .profile-content {
-  display: inline-block;
-  margin: 10px 0 0 70px;
+  /*display: inline-block;*/
+  padding: 20px 10px 10px 10px;
   width: 100%;
   height: 200px;
 }
 
-.prifile-content h5 {
+.profile-content h5 {
   display: table-row;
+  text-align: center;
+  font-size: 17px;
 }
 
 .profile-table {
   display: table;
+  padding: 10px 20px 10px 20px;
 }
 
 /* ==========================================================================
@@ -510,6 +517,8 @@ Q&A
 .q-and-a h3 {
   margin: 0 0 20px 0;
   text-align: center;
+  font-family: WaltoGraph;
+  font-size: 50px;
 }
 
 .q-and-a-col {
@@ -553,6 +562,8 @@ reception
 .reception h3 {
   margin: 0 0 20px 0;
   text-align: center;
+  font-family: WaltoGraph;
+  font-size: 50px;
 }
 
 .reception-col {
@@ -587,7 +598,9 @@ wedding-menu
 
 .wedding-menu {
   position: relative;
-  background-color: #FAFAFA;
+  /*background-color: #FFFEFB;*/
+  background: url("../img/menu-background.png") center center;
+  background-size: cover;
 }
 .wedding-menu p {
   margin-bottom: 0;
@@ -596,27 +609,26 @@ wedding-menu
 .wedding-menu h3 {
   margin: 0 0 20px 0;
   text-align: center;
+  font-family: WaltoGraph;
+  font-size: 50px;
 }
 
 .wedding-menu-col {
   margin: 0;
-  padding: 0;
-}
-
-.wedding-menu-icon {
-  display: inline-block;
-  vertical-align: top;
-  padding: 6px 0 0 0;
-  margin-right: 20px;
-}
-
-.wedding-menu-icon img {
-  width: 150px;
+  padding: 5px;
 }
 
 .wedding-menu-content {
-  display: inline-block;
-  width: 80%;
+    margin: 5px 5px 20px 5px;
+    text-align: center;
+}
+
+.wedding-menu-content .content-jp {
+    font-size: 17px;
+}
+
+.wedding-menu-content .content-en {
+    color: #818180;
 }
 
 /* ==========================================================================
@@ -1034,3 +1046,8 @@ you can use the generic selector below, but it's slower:
 
 .icon-dribbble:before {
   content: "\e063"; }
+
+@font-face {
+    font-family: WaltoGraph;
+    src: url("../fonts/waltograph42.otf");
+}
