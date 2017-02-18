@@ -713,7 +713,7 @@ width:0;
 
 
 /* ==========================================================================
-reception
+graph
 ========================================================================== */
 
 /*.reception span.img {
@@ -721,38 +721,34 @@ reception
   color: #FF5274;
   font-weight: bold; }*/
 
-.reception {
+.graph {
   position: relative;
 }
+.graph .container {
+    width: 100%;
+}
 
-.reception p {
+.graph p {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-.reception h3 {
+.graph h3 {
   margin: 0 0 20px 0;
   text-align: center;
   font-family: WaltoGraph;
   font-size: 50px;
 }
-
-.reception-col {
-  margin: 0;
-  padding: 0;
+.graph-mov {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.reception-icon {
-  display: inline-block;
-  vertical-align: top;
-  padding: 6px 0 0 0;
-  margin-right: 20px;
+.graph-mov video {
+    width: 100%;
 }
 
-.reception-icon img {
-  width: 150px;
-}
-
-.reception-content {
+.graph-content {
   display: inline-block;
   width: 80%;
 }
