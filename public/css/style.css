@@ -793,6 +793,10 @@ graph
     width: 100%;
 }
 
+.graph-mov img {
+    width: 100%;
+}
+
 .graph-content {
   /*display: inline-block;*/
 }
