@@ -103,4 +103,7 @@ $(document).ready(function() {
 	/******** AOS *********/
     AOS.init();
 
+		$('.upload-button').addClass('animated pulse');
+
+
 });
