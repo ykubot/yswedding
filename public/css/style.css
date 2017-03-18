@@ -560,6 +560,10 @@ Q&A
   color: #FF5274;
   font-weight: bold; }*/
 
+.container {
+    max-width: 600px;
+}
+
 .q-and-a {
   position: relative;
   background-color: #FAFAFA;
